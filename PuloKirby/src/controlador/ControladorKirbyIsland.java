@@ -115,9 +115,10 @@ public class ControladorKirbyIsland implements KeyListener {
 					mapa.getSprite().setIcon(KirbyIsland.resizeIcon((String) "pulo" + estado, 96, 111));
 				}
 
+				
+				
 				velY += gravidade;
 				int puloSprite = mapa.getSprite().getY() + velY;
-				System.out.println(puloSprite);
 
 				if (puloSprite >= chao) {
 					puloSprite = chao;

@@ -10,6 +10,7 @@ public class Frame extends JFrame {
 	     this.setSize(1280, 720);
 	     this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	     this.setLocationRelativeTo(null);
+	     this.setResizable(false);
 	}
 
 }
